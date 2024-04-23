@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+
+    <title>Home-liceu</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="css/lightbox.css">
+  
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/lightbox.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <header data-aos="fade-down">
+        <a href="">
+            <img class="header-logo" src="images/logo.png">
+        </a>
+        <nav id="navbar">
+            <a onclick="mobileMenu()" href="#despre">Despre noi</a>
+            <a onclick="mobileMenu()" href="#galerie">Galerie</a>
+            <a onclick="mobileMenu()" href="#contacte">Contacte</a>
+            <a onclick="mobileMenu()" href="pages/noutati.html">Noutati</a>
+            <a onclick="mobileMenu()" href="pages/orar.html">Orar</a>
+
+            <i onclick="mobileMenu()" id="hamburger" class="fas fa-bars"></i>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="intro">
+            <div class="intro-content" data-aos="fade-in" data-aos-delay="500">
+                <img class="logo" src="images/logo.png">
+
+                <h1>LT Visoca</h1>
+                <h2>Un liceu pentru toti</h2>
+                <a id="despre-btn" class="intro-btn" href="#despre">Despre noi</a>
+                <a class="intro-btn" href="pages/orar.html">Orar</a>
+            </div>
+
+            <div class="custom-shape-divider-bottom-1709053352">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+                </svg>
+            </div>
+
+        </section>
+        <section id="despre" data-aos="fade-in">
+
+            <h1 class="centered">Despre noi</h1>
+
+            <i class="fas fa-graduation-cap i1"></i>
+            <i class="fas fa-pencil-alt i2"></i>
+            <i class="fas fa-book i3"></i>
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+            <i class="fas fa-book i6"></i>
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+            <p class="p-despre">
+                <b>Scurt istoric </b> </br>
+
+                
+                1874 - s-a deschis prima şcoală parohială pe lîngă biserica din sat.</br>
+                1907 - s-a deschis Şcoala de zemstvă de 4 ani.</br>
+                1946 - s-a deschis Şcoala de 7 ani.</br>
+                1951 - Prima promoţie a şcolii medii.</br>
+                2007 - școala medie obține statut de liceu teoretic. </br>
+                Clădirea din 3 niveluri a fost renovată esențial. 
+                La dispoziție elevii au diverse cabinete de studiere a disciplinelor, o sală de sport, o cantină și pedagogi cu o bogată experiență de muncă. 
+                În prezent - avem 226 de elevi și 21 de cadre didactice.
+            </p>
+
+            <div class="slideshow">
+                <div class="slide">
+                    <img src="images/profesori.jpg">
+
+                    <div class="slide-text">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p>
+                            Avem un colectiv de profesori
+                            cu experiență în domeniu de mulți ani, care sunt deschiși pentru orice colaborare
+                             și sunt ințelegători.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="images/biblioteca1.jpg">
+
+                    <div class="slide-text">
+                        <i class="fas fa-book"></i>
+                        <p>
+                            Elevii noștri sunt pasionați de carte și vizitează sistematic biblioteca.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="images/clasa.jpg">
+
+                    <div class="slide-text">
+                        <i class="fas fa-user-tie"></i>
+                        <p>
+                            Avem săli de clasă moderne. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/sala.jpg">
+
+                <div class="slide-text">
+                    <i class="fas fa-user-tie"></i>
+                    <p>
+                        Sala sportivă este mândria noastră.
+                    </p>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="galerie" data-aos="fade-in">
+            <h1 class="centered">Galerie</h1>
+
+
+            <i class="fas fa-pencil-alt i2"></i>
+
+
+            <i class="fas fa-graduation-cap i4"></i>
+            <i class="fas fa-pencil-alt i5"></i>
+
+
+            <i class="fas fa-graduation-cap i7"></i>
+            <i class="fas fa-pencil-alt i8"></i>
+            <i class="fas fa-book i9"></i>
+
+            <div class="galerie-container">
+
+                <a href="images/absol.jpg" data-aos="fade-in" data-aos-delay="200">
+                    <img src="images/absol.jpg">
+                </a>
+                <a href="images/aleg.jpg" data-aos="fade-in" data-aos-delay="400">
+                    <img src="images/aleg.jpg">
+                </a>
+                <a href="images/biblioteca1.jpg" data-aos="fade-in" data-aos-delay="600">
+                    <img src="images/biblioteca1.jpg">
+                </a>
+                <a href="images/liceu.jpg"data-aos="fade-in" data-aos-delay="800" >
+                    <img src="images/liceu.jpg">
+                </a>
+                <a href="images/robot.jpg"data-aos="fade-in" data-aos-delay="1000">
+                    <img src="images/robot.jpg">
+                </a>
+                <a href="images/toamna.jpg" data-aos="fade-in" data-aos-delay="1200">
+                    <img src="images/toamna.jpg">
+                </a>
+                <a href="images/liceu1.jpg"data-aos="fade-in" data-aos-delay="800" >
+                    <img src="images/liceu1.jpg">
+                </a>
+                <a href="images/profesori.jpg"data-aos="fade-in" data-aos-delay="1000">
+                    <img src="images/profesori.jpg">
+                </a>
+                <a href="images/toamna1.jpg" data-aos="fade-in" data-aos-delay="1200">
+                    <img src="images/toamna1.jpg">
+                </a>
+            </div>
+
+        </section>
+
+        <section id="contacte" data-aos="fade-in">
+            <h1 class="centered">Contacte</h1>
+            <div class="row">
+                <div class="col-50 contacte-info">
+
+                    <b>Telefon:</b>
+                    <a href="tel:+373 230 52266">230 52266</a>
+                    <br />
+
+                    <b>Adresa</b>
+                    <span>r.Soroca, s. Visoca</span>
+                    <br />
+
+                    <b>Email:</b>
+                    <a href="mailto:liceulteoreticvisoca@gmail.com">liceulteoreticvisoca@gmail.com</a>
+
+                    <br />
+
+                    <div class="formular-container">
+                        <h3> Lasa un mesaj</h3>
+
+                        <form id="formular">
+
+                            <input required type="text" id="nume" placeholder="Nume">
+                            <br />
+                            <input required  type="email" id="email" placeholder="Email">
+                            <br />
+                            <textarea required id="mesaj" rows="5" placeholder="Mesajul"></textarea>
+                            <br />
+
+                            <input onclick="send()" type="button" value="Transmite">
+                            <br />
+                        </form>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-50">
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4310.607840099016!2d27.924012977763226!3d48.24628890001823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cccbb9cbfbaacf%3A0x39f1aaae19b63110!2sLiceul%20Visoca!5e1!3m2!1sru!2s!4v1710867672394!5m2!1sru!2s"
+                        class="harta" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer data-aos-offset="-400">
+        <h3>LTVisoca</h3>
+    </footer>
+</body>
+
+</html>
